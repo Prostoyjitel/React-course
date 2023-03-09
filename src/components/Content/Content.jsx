@@ -1,8 +1,8 @@
-export function Contnent(props) {
+export function Contnent({title, desc}) {
     return (
         <div>
-            <h1>{props.title}</h1>
-            <p>{props.desc}</p>
+            <h1>{title}</h1>
+            <p>{desc}</p>
         </div>
     )
 }

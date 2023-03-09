@@ -1,7 +1,7 @@
-export function Header(props) {
+export function Header({title}) {
     return (
         <header >
-            {props.title}
+            {title}
         </header>
     )
 }

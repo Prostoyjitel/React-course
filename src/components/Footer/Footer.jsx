@@ -1,5 +1,5 @@
-export function Footer(props) {
+export function Footer({copyright}) {
     return (
-        <footer>{props.copyright}</footer>
+        <footer>{copyright}</footer>
     )
 }

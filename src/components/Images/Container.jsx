@@ -1,5 +1,5 @@
-export function Images (props){
+export function Images ({src, alt}){
     return (
-        <img style={{width:500, height:250}} src={props.src} alt={props.alt} />
+        <img src={src} alt={alt} />
     )
 }

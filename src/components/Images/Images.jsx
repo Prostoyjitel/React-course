@@ -14,7 +14,7 @@ export function Container() {
                     <Images src="https://picsum.photos/1000?random=4" alt="alt srs" />
                 </div>
             </div>
-            
+
         </div>
     )
 }
