@@ -1,5 +1,5 @@
-export function Images ({src, alt}){
+export function Images ({src, alt, width, heigth}){
     return (
-        <img src={src} alt={alt} />
+        <img width={width} heigth={heigth} src={src} alt={alt} />
     )
 }

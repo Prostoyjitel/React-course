@@ -1,4 +1,4 @@
-export function Header({title}) {
+export function Header({ title }) {
     return (
         <header >
             {title}
